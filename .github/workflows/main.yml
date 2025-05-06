@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  start:
+    runs-on: linux-latest
+    steps:
+      - name: start
+        
